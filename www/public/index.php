@@ -26,9 +26,10 @@ f) tar bor alla länder som börjar med A
 
 
 upp 5
-a) SELECT * FROM egytalk JOIN user WHERE user.uid = "94e4c092-74b2-11ed-bff6-0242ac150004"          //det kan finnas några problem
+a) rätt lösning:         SELECT * FROM egytalk WHERE uid = "94e4c092-74b2-11ed-bff6-0242ac150004"
 
-b) SELECT * FROM egytalk JOIN comment WHERE comment.pid = egytalk.pid;                       //det kan finnas några problem
+b)      SELECT * FROM comment WHERE pid = 3;
+
 
 */ 
 
